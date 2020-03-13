@@ -1,0 +1,7 @@
+<svg class="svg-icon menu-icon-new is-menu-active" data-e2e-name="menu-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" width="22" height="14" viewBox="0 0 22 14">
+            
+              <title id="title">Menu icon</title>
+              <desc id="desc">A vertical stack of three evenly spaced horizontal lines.</desc>
+            
+              <path class="menu-icon-new-path" d="M0 12h22v2H0zM0 6h22v2H0zM0 0h22v2H0z"></path>
+            </svg>
