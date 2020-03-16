@@ -1,13 +1,46 @@
-section
-    footer.footer
+footer.footer
+    .footer__top
         .container
-            .footer__top
-                .footer__top--left
-                    .footer__logo
-                        a.logo__link(href="")
-                            .logo__img
-                                img(src="img/logo.svg", alt="Insider")
-                .footer__top--center
-                    p.footer__follow Follow us on:
-                .footer__top--right
-            .footer__bottom
+            .footer__top-left
+                .footer__logo
+                    a.logo__link(href="")
+                        .logo__img
+                            img(src="img/logo-footer.svg", alt="Insider")
+            .footer__top-center
+                p.brands-label Follow us on:
+                a.soc-link.soc-link--facebook(href="")
+                    img(src="img/facebook.svg", alt="facebook")
+                a.soc-link.soc-link--youtube(href="")
+                    img(src="img/youtube.svg", alt="youtube")
+                a.soc-link.soc-link--insta(href="")
+                    img(src="img/instagram.svg", alt="instagram")
+            .footer__top-right
+                p.brands-label Also check out:
+                a.soc-link.soc-link--business(href="")
+                    img(src="img/business.svg", alt="business")
+                a.soc-link.soc-link--markets(href="")
+                    img(src="img/markets.svg", alt="markets")
+    .footer__bottom
+        .container
+            p.copyright * 
+                a(href="") Copyright © 
+                    span.date-0(data-format="yyyy") 
+                |  Insider Inc. All rights reserved. Registration on or use of this site constitutes acceptance of our 
+                a(href="") Terms of Service
+                |,  
+                a(href="") Privacy Policy
+                |  and 
+                a(href="") Cookies Policy
+                |.
+            ul.copyright-list
+                li.copyright-list__item
+                    a.copyright-link(href="") Disclaimer
+                li.copyright-list__item
+                    a.copyright-link(href="") Commerce Policy
+                li.copyright-list__item
+                    a.copyright-link(href="") CA Privacy Rights
+                li.copyright-list__item
+                    a.copyright-link(href="") Made in NYC
+                li.copyright-list__item
+                    a.copyright-link(href="") Reprints & Permissions
+                    

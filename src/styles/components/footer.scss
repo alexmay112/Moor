@@ -1,3 +1,83 @@
 .footer {
+  color: #ffffff;
   background-color: #000000;
+
+  a {
+    color: #ffffff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
+
+.footer__top {
+  padding-top: 100px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer__top-center {
+  display: flex;
+  align-items: center;
+}
+
+.footer__top-right {
+  display: flex;
+  align-items: center;
+
+}
+
+.brands-label {
+  padding-right: 24px;
+}
+
+.soc-link {
+  margin: 0 14px;
+  display: block;
+}
+
+.soc-link--facebook {
+  width: 14px;
+  height: 27px;
+}
+
+.soc-link--youtube {
+  width: 27px;
+  height: 19px;
+}
+
+.soc-link--insta {
+  width: 27px;
+  height: 27px;
+}
+
+.soc-link--business {
+  width: 109px;
+  height: 34px;
+}
+
+.soc-link--markets {
+  width: 103px;
+  height: 35px;
+}
+
+.copyright-list {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright-list__item {
+  font-size: 11px;
+}
+
+.copyright-list__item+.copyright-list__item {
+  margin: 0 2px 4px;
+  padding: 0 0 0 4px;
+  border-left: 1px solid #888;
+}
+
