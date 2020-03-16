@@ -4,6 +4,16 @@
   font-weight: 900;
 }
 
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.article__link {
+  font-weight: 700;
+}
+
 .author__name {
   font-weight: 700;
 }
@@ -69,14 +79,39 @@
   }
 }
 
+h3 {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.article__img {
+  img {
+    margin: 10px auto;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
 .line {
   border-bottom: 1px solid #e0e4e5;
 }
 
 .text {
+  margin-bottom: 10px;
   color: #111111;
   font-size: 20px;
   line-height: 1.3;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.text-italic {
+  font-style: italic;
 }
 
 .victim {
@@ -106,4 +141,17 @@
 .victim__text {
   font-size: 18px;
   text-align: center;
+}
+
+.steps {
+  margin: 10px 0;
+  padding-left: 30px;
+  list-style: decimal;
+  font-size: 20px;
+}
+
+.steps__item {
+  &:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
 }
