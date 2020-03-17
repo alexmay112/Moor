@@ -1,0 +1,245 @@
+.w-input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #cccccc
+}
+
+.w-input:-moz-placeholder {
+  color: #999
+}
+
+.w-input::-moz-placeholder {
+  color: #999;
+  opacity: 1
+}
+
+.w-input:-ms-input-placeholder {
+  color: #999
+}
+
+.w-input::-webkit-input-placeholder {
+  color: #999
+}
+
+.w-input:focus {
+  border-color: #3898EC;
+  outline: 0
+}
+
+textarea.w-input {
+  height: auto
+}
+
+.cnn-comments-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.cnn-comments-top-leftext {
+  color: #000;
+  font-weight: 700;
+}
+
+.cnn-comments-top-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.filtra {
+  margin-right: 10px;
+}
+
+.cnn-comments-postcomment {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.cnn-comments-postcomment-avatar {
+  width: 50px;
+}
+
+.cnn-comments-postcomment-right {
+  padding-left: 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.cnn-textarea-fb {
+  max-width: 100%;
+  min-height: 80px;
+  border: 1px solid #ddd;
+}
+
+.comment-block {
+  &>.cnn-comments-row {
+    margin: 25px 0;
+  }
+}
+
+.cnn-comments-row {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cnn-comments-avatar {
+  display: none;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.cnn-comments-avatar-img {
+  height: 50px;
+  max-width: 120%;
+  min-width: 100%;
+}
+
+.cnn-comments-right {
+  padding-left: 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.cnn-comments-username {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #4f75a2;
+  font-weight: 700;
+}
+
+.cnn-comments-postblock {
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.cnn-comments-likereply {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.fb-link {
+  color: #4f75a2;
+}
+
+.cnn-comments-likereply-textblock {
+  padding-right: 5px;
+}
+
+.cnn-comments-likereply-like {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background-image: linear-gradient(218deg, #4ba5f7, #1e8bee);
+}
+
+.cnn-comments-likereply-like-icon {
+  width: 11px;
+  height: 11px;
+  /* width: 60%; */
+}
+
+.gray-link {
+  color: #999;
+}
+
+.cnn-comments-row-replied {
+  padding-left: 30px;
+  border-left: 1px dotted #ddd;
+}
+
+@media (max-width: 767px) {
+  .cnn-comments-postblock {
+    text-align: left;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.like-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.like-link {
+  display: flex;
+  justify-content: center;
+}
+
+.live-foto {
+  width: 520px;
+  margin-top: 10px;
+}
