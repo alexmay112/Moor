@@ -323,6 +323,11 @@ strong {
   }
 }
 
+.price-new,
+.price-old {
+  text-align: center;
+}
+
 .x_currency,
 .x_price_current {
   font-size: 25px;
@@ -330,10 +335,49 @@ strong {
 }
 
 .x_price_previous {
-  margin: 0 10px;
-  text-decoration: line-through;
   font-size: 21px;
   color: #444;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #f57373;
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #f57373;
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+}
+
+.price-old {
+  width: 50%;
+
+  .price__title {
+    margin-bottom: 4px;
+  }
+
+  .x_currency {
+    font-weight: 400;
+    font-size: 21px;
+    color: #444444;
+  }
+}
+
+.price-new {
+  width: 50%;
 }
 
 .form__input,
@@ -343,6 +387,10 @@ select {
   border-radius: 10px;
   border: 1px solid $grey;
   box-shadow: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.24);
+}
+
+select {
+  background-color: #fff;
 }
 
 .form__input-wrap--name {

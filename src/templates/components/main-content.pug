@@ -10,7 +10,7 @@ section.main-content
 				ul.share
 					li.share__item
 						a.share__link.share__link--fb(href="")
-							img.share__link-img--fb(src="img/facebook.svg", alt="facebook")
+							img.share__link-img--fb(src="img/facebook.png", alt="facebook")
 					li.share__item
 						a.share__link.share__link--snap(href="")
 							img.share__link-img--snap(src="img/logo-snapchat.svg", alt="snapchat")
@@ -185,10 +185,19 @@ section.main-content
 				.order__form.form
 					p.form__title Специальное предложение
 					.price
-						span.x_currency ГРН.
-						span.x_price_previous 98
-						span.x_price_current 49
-					form.form__body.x_order_form
+						.price-old
+							span.price__title Старая цена
+							.price__count
+								span.x_price_previous 9999
+								|&nbsp;
+								span.x_currency грн.
+						.price-new
+							span.price__title Ваша цена
+							.price__count
+								span.x_price_current.green-text 999
+								|&nbsp;
+								span.x_currency грн.
+					form.form__body.x_order_form(action="/submit" method="post")
 						.x_country_select
 							select.country-select(name="country_code")
 						.form__input-wrap.form__input-wrap--name
