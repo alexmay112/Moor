@@ -250,24 +250,41 @@ strong {
   }
 }
 
-.day-effect {
+.day-effect__wrap {
   width: 167px;
   margin-right: 10px;
+  position: relative;
 
   @include r(479) {
     margin: 0 auto 5px;
   }
 }
 
+.day-mark {
+  padding: 5px 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.order-box {
+  padding-top: 40px;
+}
+
 .form-title {
-  margin: 40px 0;
+  margin: 0 0 40px;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
 
   .red-text {
-    @include r(639) {
+    @include r(767) {
       display: block;
     }
   }
